@@ -69,12 +69,13 @@ p {
   background-color:purple;
 }
 
-h3{
-  text-align: center;
 
-}
 
 .main{
   background-color: pink;
-  
+
+}
+
+h5{
+  color:blue;
 }
