@@ -1,81 +1,65 @@
 body {
-  font-size: 16px;
-  color: white;
-  background-color: black;
-  }
+  background-color: #d9d9d9; 
+}
+
 #header-nav {
   background-color: yellow;
-  
-}
-.navbar-header{
-  height:100px;
+  border-radius: 0;
+  border: 0;
+
 }
 
-.navbar-brand
-{
-  padding: 5px;
+#brandname {
+  padding-bottom: 10px;
+
 }
 
-.navbar-brand h1 { /* Restaurant name */
-  
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
   color: red;
-  font-size: 1.9em;
-  text-transform: uppercase;
+  font-size: 1.5em;
   font-weight: bold;
-  text-shadow: 2px 2px 2px #222;
+  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.75;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-size: 1.5em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
 }
 
 
-#nav-list
-{
-  background-color: green;
-  text-align:center;
+#nav-list {
+  background-color: #B0C4DE;
 }
 
-
- h2{
-	color:white;
-	text-align:center;
-	text-transform: uppercase;
-	font-size:30px; 
-}
-
-
-p {
+#menu-title {
+  font-size: 2.5em;
   
-   padding: 10px;
-  margin: 0;
-  font-style: bold;
-  font-size: 20px;
+  font-weight: bold;
+}
+
+#beef{
+  background-color: #F0F0F0;
+}
+
+body{
+  
+  padding:10px;
+}
+p{
   background-color: pink;
-  color:black;
-}
-
-.col-xs-12{
-  padding: 0  10px;
-}
-
-.container {
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#header-nav .container{
-  background-color:purple;
-}
-
-
-
-.main{
-  background-color: pink;
-
-}
-
-h5{
-  color:blue;
 }
