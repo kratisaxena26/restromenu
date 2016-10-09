@@ -3,13 +3,16 @@
 }
 
 #header-nav {
-    background-color: black;
+    background-color: green;
     border: 0;
     border-radius: 0;
     margin-top: 0;
     margin-bottom: 50px;
 }
 
+.row{
+  margin-right: 65px;
+}
 .navbar-header {
     padding-left: 25px;
 }
@@ -31,10 +34,54 @@
 
   }
   
+  .navbar-brand a,
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    text-shadow: 1px 1px 20px #000;
+}
+
+#nav-list {
+    background-color: #E09B00;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.4em;
+    color: #000;
+}
+
+#nav-list li {
+    border: 1px solid black;
+}
+
+#nav-list a {
+    color: black;
+}
+
+#nav-list a:hover {
+    background-color: #E05C00;
+}
+
+#my-navbar button:hover,
+#my-navbar button:focus {
+    background-color: #E09B00;
+}
+
+.box {
+    border: 2px solid black;
+    margin: 50px 0px 10px 40px;
+    padding-bottom: 10px;
+    background-color: #2D7FB2;
+    height: 100%;
+}
 
   #collapsable-nav a { 
     text-align:center;
   }
+
+
 body {
   padding: 50px;
   overflow:scroll;
