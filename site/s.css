@@ -2,12 +2,32 @@
   box-sizing: border-box;
 }
 
+#header-nav {
+    background-color: black;
+    border: 0;
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.navbar-header {
+    padding-left: 25px;
+}
+
 .navbar-brand a {
-  font-size:25px;
+  
    background-color: black;
     color:red;
     text-transform: uppercase;
-  margin-top:-5px;
+   margin-top: 0;
+  margin-bottom: 0;
+    
+     font-size: 1.8em;
+ 
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #243a8c;
+  
+  line-height: 1.75;
 
   }
   
@@ -41,7 +61,7 @@ h2 {
 
 .section {
  
-  height: 1000%;
+  height: 100%;
   margin-right: 2px;
   margin-left: 2px;
   margin-bottom: 12px;
